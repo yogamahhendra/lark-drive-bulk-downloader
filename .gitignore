@@ -1,0 +1,55 @@
+# Compiled Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Go Test & Profiling Artifacts
+*.test
+*.test.exe
+*.out
+cover.out
+coverage.html
+*.pprof
+
+# Output & Download Directories
+output/
+output_*/
+downloads/
+*.tmp
+*.log
+download-report.json
+
+# Temporary Browser Profiles & CDP Data
+lark_chrome_*
+lark_debug_*
+chrome-profile/
+test_profile/
+
+# Test & Scratch Artifacts
+test.html
+test_dl.jpg
+test_downloaded.jpg
+scratch/
+
+# Go Workspace & Local Environment
+go.work
+go.work.sum
+.env
+.env.local
+
+# IDE & Editor Configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System Metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
